@@ -1,2 +1,28 @@
 [2024-03-13 22:06:57,027: INFO: main: Welcome to our custom]
 [2024-03-13 22:20:11,038: INFO: main: Welcome to our custom]
+[2024-03-14 22:13:11,651: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 22:13:11,660: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 22:13:11,663: INFO: common: created directory at: artifacts]
+[2024-03-14 22:13:11,664: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-14 22:13:11,666: INFO: 986331348: Downloading data from https://drive.google.com/file/d/1Bic8dk_wtjUsP9tpXxo5CGrPNkuhIiL8/view?usp=sharing into file artifacts/data_ingestion/kidney_dataset.zip]
+[2024-03-14 22:13:24,962: INFO: 986331348: Downloaded data from https://drive.google.com/file/d/1Bic8dk_wtjUsP9tpXxo5CGrPNkuhIiL8/view?usp=sharing into file artifacts/data_ingestion/kidney_dataset.zip]
+[2024-03-14 23:17:43,928: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-14 23:17:43,928: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 23:17:43,934: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 23:17:43,934: INFO: common: created directory at: artifacts]
+[2024-03-14 23:17:43,934: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-14 23:17:43,936: INFO: data_injection: Downloading data from https://drive.google.com/file/d/1Bic8dk_wtjUsP9tpXxo5CGrPNkuhIiL8/view?usp=sharing into file artifacts/data_ingestion/kidney_dataset.zip]
+[2024-03-14 23:17:56,332: INFO: data_injection: Downloaded data from https://drive.google.com/file/d/1Bic8dk_wtjUsP9tpXxo5CGrPNkuhIiL8/view?usp=sharing into file artifacts/data_ingestion/kidney_dataset.zip]
+[2024-03-14 23:17:57,092: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-14 23:19:58,362: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-14 23:19:58,362: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-14 23:19:58,362: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-14 23:19:58,362: INFO: common: created directory at: artifacts]
+[2024-03-14 23:19:58,362: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-14 23:19:58,362: INFO: data_injection: Downloading data from https://drive.google.com/file/d/1Bic8dk_wtjUsP9tpXxo5CGrPNkuhIiL8/view?usp=sharing into file artifacts/data_ingestion/kidney_dataset.zip]
+[2024-03-14 23:20:10,698: INFO: data_injection: Downloaded data from https://drive.google.com/file/d/1Bic8dk_wtjUsP9tpXxo5CGrPNkuhIiL8/view?usp=sharing into file artifacts/data_ingestion/kidney_dataset.zip]
+[2024-03-14 23:20:11,490: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
