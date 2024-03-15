@@ -105,3 +105,419 @@ x==========x]
 [2024-03-15 18:39:31,043: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
 
 x==========x]
+[2024-03-15 19:02:49,651: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 19:02:49,660: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 19:02:49,663: INFO: common: created directory at: artifacts]
+[2024-03-15 19:03:18,114: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 19:03:18,121: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 19:03:18,124: INFO: common: created directory at: artifacts]
+[2024-03-15 19:03:18,126: INFO: common: created directory at: artifacts\training]
+[2024-03-15 19:12:44,115: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 19:12:44,126: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 19:12:44,131: INFO: common: created directory at: artifacts]
+[2024-03-15 19:12:44,131: INFO: common: created directory at: artifacts\training]
+[2024-03-15 19:17:12,139: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 19:17:12,144: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 19:17:12,144: INFO: common: created directory at: artifacts]
+[2024-03-15 19:17:12,149: INFO: common: created directory at: artifacts\training]
+[2024-03-15 19:19:23,785: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 19:19:23,794: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 19:19:23,794: INFO: common: created directory at: artifacts]
+[2024-03-15 19:19:23,799: INFO: common: created directory at: artifacts\training]
+[2024-03-15 19:19:47,744: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 19:19:47,752: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 19:19:47,755: INFO: common: created directory at: artifacts]
+[2024-03-15 19:19:47,759: INFO: common: created directory at: artifacts\training]
+[2024-03-15 19:20:11,128: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 19:20:11,135: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 19:20:11,136: INFO: common: created directory at: artifacts]
+[2024-03-15 19:20:11,140: INFO: common: created directory at: artifacts\training]
+[2024-03-15 19:22:46,166: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 19:22:46,171: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 19:22:46,180: INFO: common: created directory at: artifacts]
+[2024-03-15 19:22:46,180: INFO: common: created directory at: artifacts\training]
+[2024-03-15 19:28:20,195: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 19:28:20,199: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 19:28:20,199: INFO: common: created directory at: artifacts]
+[2024-03-15 19:28:20,203: INFO: common: created directory at: artifacts\training]
+[2024-03-15 19:32:51,026: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 19:32:51,031: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 19:32:51,031: INFO: common: created directory at: artifacts]
+[2024-03-15 19:32:51,036: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-03-15 19:32:51,581: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-03-15 19:36:25,270: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-03-15 19:36:25,877: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-15 19:36:25,881: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 19:36:25,896: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 19:36:25,897: INFO: common: created directory at: artifacts]
+[2024-03-15 19:36:25,898: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-15 19:36:25,901: INFO: data_injection: Downloading data from https://drive.google.com/file/d/1Bic8dk_wtjUsP9tpXxo5CGrPNkuhIiL8/view?usp=sharing into file artifacts/data_ingestion/kidney_dataset.zip]
+[2024-03-15 19:36:39,436: INFO: data_injection: Downloaded data from https://drive.google.com/file/d/1Bic8dk_wtjUsP9tpXxo5CGrPNkuhIiL8/view?usp=sharing into file artifacts/data_ingestion/kidney_dataset.zip]
+[2024-03-15 19:36:40,162: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-15 19:36:40,162: INFO: main: *******************]
+[2024-03-15 19:36:40,168: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-03-15 19:36:40,169: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 19:36:40,169: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 19:36:40,169: INFO: common: created directory at: artifacts]
+[2024-03-15 19:36:40,169: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-03-15 19:36:40,669: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-03-15 19:36:40,831: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-03-15 19:36:40,951: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-03-15 19:52:26,296: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 19:52:26,306: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 19:52:26,308: INFO: common: created directory at: artifacts]
+[2024-03-15 19:52:26,308: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-03-15 19:52:27,269: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-03-15 19:52:59,271: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-03-15 19:53:00,591: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-15 19:53:00,591: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 19:53:00,612: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 19:53:00,614: INFO: common: created directory at: artifacts]
+[2024-03-15 19:53:00,616: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-15 19:53:00,617: INFO: data_injection: Downloading data from https://drive.google.com/file/d/1Bic8dk_wtjUsP9tpXxo5CGrPNkuhIiL8/view?usp=sharing into file artifacts/data_ingestion/kidney_dataset.zip]
+[2024-03-15 19:53:14,235: INFO: data_injection: Downloaded data from https://drive.google.com/file/d/1Bic8dk_wtjUsP9tpXxo5CGrPNkuhIiL8/view?usp=sharing into file artifacts/data_ingestion/kidney_dataset.zip]
+[2024-03-15 19:53:15,043: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-15 19:53:15,043: INFO: main: *******************]
+[2024-03-15 19:53:15,043: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-03-15 19:53:15,046: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 19:53:15,046: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 19:53:15,046: INFO: common: created directory at: artifacts]
+[2024-03-15 19:53:15,053: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-03-15 19:53:16,138: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-03-15 19:53:16,676: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-03-15 20:12:49,973: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 20:12:49,976: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 20:12:49,978: INFO: common: created directory at: artifacts]
+[2024-03-15 20:12:49,980: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-03-15 20:14:12,643: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 20:14:12,651: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 20:14:12,651: INFO: common: created directory at: artifacts]
+[2024-03-15 20:14:12,651: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-03-15 20:14:13,131: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-03-15 20:14:27,548: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-03-15 20:14:28,278: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-15 20:14:28,278: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 20:14:28,278: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 20:14:28,278: INFO: common: created directory at: artifacts]
+[2024-03-15 20:14:28,278: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-15 20:14:28,290: INFO: data_injection: Downloading data from https://drive.google.com/file/d/1Bic8dk_wtjUsP9tpXxo5CGrPNkuhIiL8/view?usp=sharing into file artifacts/data_ingestion/kidney_dataset.zip]
+[2024-03-15 20:14:40,899: INFO: data_injection: Downloaded data from https://drive.google.com/file/d/1Bic8dk_wtjUsP9tpXxo5CGrPNkuhIiL8/view?usp=sharing into file artifacts/data_ingestion/kidney_dataset.zip]
+[2024-03-15 20:14:41,634: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-15 20:14:41,635: INFO: main: *******************]
+[2024-03-15 20:14:41,636: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-03-15 20:14:41,636: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 20:14:41,636: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 20:14:41,636: INFO: common: created directory at: artifacts]
+[2024-03-15 20:14:41,636: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-03-15 20:14:42,210: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-03-15 20:14:42,806: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-03-15 20:16:33,797: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-03-15 20:16:34,517: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-15 20:16:34,517: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 20:16:34,525: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 20:16:34,525: INFO: common: created directory at: artifacts]
+[2024-03-15 20:16:34,525: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-15 20:16:34,525: INFO: data_injection: Downloading data from https://drive.google.com/file/d/1Bic8dk_wtjUsP9tpXxo5CGrPNkuhIiL8/view?usp=sharing into file artifacts/data_ingestion/kidney_dataset.zip]
+[2024-03-15 20:16:46,798: INFO: data_injection: Downloaded data from https://drive.google.com/file/d/1Bic8dk_wtjUsP9tpXxo5CGrPNkuhIiL8/view?usp=sharing into file artifacts/data_ingestion/kidney_dataset.zip]
+[2024-03-15 20:16:47,774: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-15 20:16:47,776: INFO: main: *******************]
+[2024-03-15 20:16:47,776: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-03-15 20:16:47,780: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 20:16:47,783: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 20:16:47,785: INFO: common: created directory at: artifacts]
+[2024-03-15 20:16:47,785: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-03-15 20:16:48,883: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-03-15 20:16:49,289: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-03-15 20:18:24,162: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-03-15 20:18:24,882: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-15 20:18:24,882: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 20:18:24,897: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 20:18:24,897: INFO: common: created directory at: artifacts]
+[2024-03-15 20:18:24,897: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-15 20:18:24,897: INFO: data_injection: Downloading data from https://drive.google.com/file/d/1Bic8dk_wtjUsP9tpXxo5CGrPNkuhIiL8/view?usp=sharing into file artifacts/data_ingestion/kidney_dataset.zip]
+[2024-03-15 20:18:37,089: INFO: data_injection: Downloaded data from https://drive.google.com/file/d/1Bic8dk_wtjUsP9tpXxo5CGrPNkuhIiL8/view?usp=sharing into file artifacts/data_ingestion/kidney_dataset.zip]
+[2024-03-15 20:18:38,066: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-15 20:18:38,068: INFO: main: *******************]
+[2024-03-15 20:18:38,068: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-03-15 20:18:38,071: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 20:18:38,082: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 20:18:38,084: INFO: common: created directory at: artifacts]
+[2024-03-15 20:18:38,089: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-03-15 20:18:39,101: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-03-15 20:18:39,497: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-03-15 20:32:38,707: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 20:32:38,710: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 20:32:38,712: INFO: common: created directory at: artifacts]
+[2024-03-15 20:32:38,713: INFO: common: created directory at: artifacts\training]
+[2024-03-15 20:59:04,450: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-03-15 20:59:05,842: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-15 20:59:05,844: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 20:59:05,848: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 20:59:05,849: INFO: common: created directory at: artifacts]
+[2024-03-15 20:59:05,850: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-15 20:59:05,850: INFO: data_injection: Downloading data from https://drive.google.com/file/d/1Bic8dk_wtjUsP9tpXxo5CGrPNkuhIiL8/view?usp=sharing into file artifacts/data_ingestion/kidney_dataset.zip]
+[2024-03-15 20:59:18,410: INFO: data_injection: Downloaded data from https://drive.google.com/file/d/1Bic8dk_wtjUsP9tpXxo5CGrPNkuhIiL8/view?usp=sharing into file artifacts/data_ingestion/kidney_dataset.zip]
+[2024-03-15 20:59:19,178: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-15 20:59:19,178: INFO: main: *******************]
+[2024-03-15 20:59:19,178: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-03-15 20:59:19,178: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 20:59:19,190: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 20:59:19,190: INFO: common: created directory at: artifacts]
+[2024-03-15 20:59:19,193: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-03-15 20:59:19,992: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-03-15 20:59:20,644: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-03-15 21:04:21,194: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 21:04:21,200: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 21:04:21,202: INFO: common: created directory at: artifacts]
+[2024-03-15 21:04:21,204: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-03-15 21:04:21,699: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-03-15 21:05:32,290: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-03-15 21:05:33,038: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-15 21:05:33,042: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 21:05:33,042: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 21:05:33,042: INFO: common: created directory at: artifacts]
+[2024-03-15 21:05:33,042: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-15 21:05:33,045: INFO: data_injection: Downloading data from https://drive.google.com/file/d/1Bic8dk_wtjUsP9tpXxo5CGrPNkuhIiL8/view?usp=sharing into file artifacts/data_ingestion/kidney_dataset.zip]
+[2024-03-15 21:05:45,461: INFO: data_injection: Downloaded data from https://drive.google.com/file/d/1Bic8dk_wtjUsP9tpXxo5CGrPNkuhIiL8/view?usp=sharing into file artifacts/data_ingestion/kidney_dataset.zip]
+[2024-03-15 21:05:46,264: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-15 21:05:46,264: INFO: main: *******************]
+[2024-03-15 21:05:46,265: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-03-15 21:05:46,267: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 21:05:46,269: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 21:05:46,269: INFO: common: created directory at: artifacts]
+[2024-03-15 21:05:46,270: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-03-15 21:05:46,892: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-03-15 21:05:47,207: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-03-15 21:09:19,499: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-03-15 21:09:20,205: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-15 21:09:20,221: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 21:09:20,224: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 21:09:20,225: INFO: common: created directory at: artifacts]
+[2024-03-15 21:09:20,225: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-15 21:09:20,226: INFO: data_injection: Downloading data from https://drive.google.com/file/d/1Bic8dk_wtjUsP9tpXxo5CGrPNkuhIiL8/view?usp=sharing into file artifacts/data_ingestion/kidney_dataset.zip]
+[2024-03-15 21:09:32,514: INFO: data_injection: Downloaded data from https://drive.google.com/file/d/1Bic8dk_wtjUsP9tpXxo5CGrPNkuhIiL8/view?usp=sharing into file artifacts/data_ingestion/kidney_dataset.zip]
+[2024-03-15 21:09:33,320: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-15 21:09:33,321: INFO: main: *******************]
+[2024-03-15 21:09:33,322: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-03-15 21:09:33,325: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 21:09:33,327: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 21:09:33,327: INFO: common: created directory at: artifacts]
+[2024-03-15 21:09:33,328: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-03-15 21:09:33,827: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-03-15 21:09:34,151: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-03-15 21:13:15,269: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 21:13:15,280: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 21:13:15,282: INFO: common: created directory at: artifacts]
+[2024-03-15 21:13:15,284: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-03-15 21:13:15,758: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-03-15 21:14:10,461: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 21:14:10,469: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 21:14:10,469: INFO: common: created directory at: artifacts]
+[2024-03-15 21:14:10,474: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-15 21:14:10,476: INFO: 986331348: Downloading data from https://drive.google.com/file/d/1Bic8dk_wtjUsP9tpXxo5CGrPNkuhIiL8/view?usp=sharing into file artifacts/data_ingestion/kidney_dataset.zip]
+[2024-03-15 21:14:23,020: INFO: 986331348: Downloaded data from https://drive.google.com/file/d/1Bic8dk_wtjUsP9tpXxo5CGrPNkuhIiL8/view?usp=sharing into file artifacts/data_ingestion/kidney_dataset.zip]
+[2024-03-15 21:15:31,876: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 21:15:31,882: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 21:15:31,886: INFO: common: created directory at: artifacts]
+[2024-03-15 21:15:31,889: INFO: common: created directory at: artifacts\training]
+[2024-03-15 21:17:32,234: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 21:17:32,238: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 21:17:32,240: INFO: common: created directory at: artifacts]
+[2024-03-15 21:17:32,242: INFO: common: created directory at: artifacts\training]
+[2024-03-15 21:26:38,418: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 21:26:38,430: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 21:26:38,434: INFO: common: created directory at: artifacts]
+[2024-03-15 21:26:38,434: INFO: common: created directory at: artifacts\training]
+[2024-03-15 21:28:29,871: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 21:28:29,880: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 21:28:29,884: INFO: common: created directory at: artifacts]
+[2024-03-15 21:28:29,885: INFO: common: created directory at: artifacts\training]
+[2024-03-15 21:32:20,873: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 21:32:20,880: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 21:32:20,884: INFO: common: created directory at: artifacts]
+[2024-03-15 21:32:20,886: INFO: common: created directory at: artifacts\training]
+[2024-03-15 21:33:05,346: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 21:33:05,352: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 21:33:05,354: INFO: common: created directory at: artifacts]
+[2024-03-15 21:33:05,356: INFO: common: created directory at: artifacts\training]
+[2024-03-15 22:16:14,076: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-03-15 22:21:15,953: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-03-15 22:21:16,640: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-15 22:21:16,640: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 22:21:16,655: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 22:21:16,655: INFO: common: created directory at: artifacts]
+[2024-03-15 22:21:16,655: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-15 22:21:16,655: INFO: data_injection: Downloading data from https://drive.google.com/file/d/1Bic8dk_wtjUsP9tpXxo5CGrPNkuhIiL8/view?usp=sharing into file artifacts/data_ingestion/kidney_dataset.zip]
+[2024-03-15 22:21:34,609: INFO: data_injection: Downloaded data from https://drive.google.com/file/d/1Bic8dk_wtjUsP9tpXxo5CGrPNkuhIiL8/view?usp=sharing into file artifacts/data_ingestion/kidney_dataset.zip]
+[2024-03-15 22:21:35,348: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-15 22:21:35,348: INFO: main: *******************]
+[2024-03-15 22:21:35,348: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-03-15 22:21:35,348: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 22:21:35,348: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 22:21:35,348: INFO: common: created directory at: artifacts]
+[2024-03-15 22:21:35,348: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-03-15 22:21:36,187: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-03-15 22:21:36,679: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-03-15 22:21:36,679: INFO: main: *******************]
+[2024-03-15 22:21:36,679: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-03-15 22:21:36,682: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 22:21:36,682: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 22:21:36,682: INFO: common: created directory at: artifacts]
+[2024-03-15 22:21:36,682: ERROR: main: name 'os' is not defined]
+Traceback (most recent call last):
+  File "D:\kidney_disease_classification_using-_DVC_MLflow\main.py", line 34, in <module>
+    model_trainer.main()
+  File "D:\kidney_disease_classification_using-_DVC_MLflow\src\cnnClassifier\pipeline\stage_03_model_training.py", line 15, in main
+    training_config = config.get_training_config()
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\kidney_disease_classification_using-_DVC_MLflow\src\cnnClassifier\config\configuration.py", line 56, in get_training_config
+    training_data = os.path.join(self.config.data_ingestion.unzip_dir, "kidney-ct-scan-image")
+                    ^^
+NameError: name 'os' is not defined
+[2024-03-15 22:25:48,809: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-03-15 22:25:49,482: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-15 22:25:49,498: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 22:25:49,498: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 22:25:49,498: INFO: common: created directory at: artifacts]
+[2024-03-15 22:25:49,498: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-15 22:25:49,498: INFO: data_injection: Downloading data from https://drive.google.com/file/d/1Bic8dk_wtjUsP9tpXxo5CGrPNkuhIiL8/view?usp=sharing into file artifacts/data_ingestion/kidney_dataset.zip]
+[2024-03-15 22:26:09,194: INFO: data_injection: Downloaded data from https://drive.google.com/file/d/1Bic8dk_wtjUsP9tpXxo5CGrPNkuhIiL8/view?usp=sharing into file artifacts/data_ingestion/kidney_dataset.zip]
+[2024-03-15 22:26:09,869: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-15 22:26:09,869: INFO: main: *******************]
+[2024-03-15 22:26:09,869: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-03-15 22:26:09,881: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 22:26:09,882: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 22:26:09,883: INFO: common: created directory at: artifacts]
+[2024-03-15 22:26:09,883: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-03-15 22:26:10,706: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-03-15 22:26:11,624: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-03-15 22:26:11,624: INFO: main: *******************]
+[2024-03-15 22:26:11,624: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-03-15 22:26:11,630: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 22:26:11,631: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 22:26:11,632: INFO: common: created directory at: artifacts]
+[2024-03-15 22:26:11,632: ERROR: main: name 'os' is not defined]
+Traceback (most recent call last):
+  File "D:\kidney_disease_classification_using-_DVC_MLflow\main.py", line 34, in <module>
+    model_trainer.main()
+  File "D:\kidney_disease_classification_using-_DVC_MLflow\src\cnnClassifier\pipeline\stage_03_model_training.py", line 15, in main
+    training_config = config.get_training_config()
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\kidney_disease_classification_using-_DVC_MLflow\src\cnnClassifier\config\configuration.py", line 56, in get_training_config
+    training_data = os.path.join(self.config.data_ingestion.unzip_dir, "kidney-ct-scan-image")
+                    ^^
+NameError: name 'os' is not defined
+[2024-03-15 22:29:08,634: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-03-15 22:29:09,374: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-15 22:29:09,374: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 22:29:09,374: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 22:29:09,374: INFO: common: created directory at: artifacts]
+[2024-03-15 22:29:09,374: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-15 22:29:09,374: INFO: data_injection: Downloading data from https://drive.google.com/file/d/1Bic8dk_wtjUsP9tpXxo5CGrPNkuhIiL8/view?usp=sharing into file artifacts/data_ingestion/kidney_dataset.zip]
+[2024-03-15 22:29:25,970: INFO: data_injection: Downloaded data from https://drive.google.com/file/d/1Bic8dk_wtjUsP9tpXxo5CGrPNkuhIiL8/view?usp=sharing into file artifacts/data_ingestion/kidney_dataset.zip]
+[2024-03-15 22:29:26,683: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-15 22:29:26,683: INFO: main: *******************]
+[2024-03-15 22:29:26,683: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-03-15 22:29:26,686: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 22:29:26,688: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 22:29:26,689: INFO: common: created directory at: artifacts]
+[2024-03-15 22:29:26,689: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-03-15 22:29:27,536: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-03-15 22:29:28,429: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-03-15 22:29:28,429: INFO: main: *******************]
+[2024-03-15 22:29:28,429: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-03-15 22:29:28,429: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 22:29:28,445: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 22:29:28,445: INFO: common: created directory at: artifacts]
+[2024-03-15 22:29:28,445: INFO: common: created directory at: artifacts\training]
+[2024-03-15 22:29:30,128: WARNING: optimizer: Skipping variable loading for optimizer 'SGD', because it has 3 variables whereas the saved optimizer has 1 variables. ]
+[2024-03-15 22:29:30,128: ERROR: main: [WinError 3] The system cannot find the path specified: 'artifacts\\data_ingestion\\kidney-ct-scan-image']
+Traceback (most recent call last):
+  File "D:\kidney_disease_classification_using-_DVC_MLflow\main.py", line 34, in <module>
+    model_trainer.main()
+  File "D:\kidney_disease_classification_using-_DVC_MLflow\src\cnnClassifier\pipeline\stage_03_model_training.py", line 18, in main
+    training.train_valid_generator()
+  File "D:\kidney_disease_classification_using-_DVC_MLflow\src\cnnClassifier\components\model_training.py", line 36, in train_valid_generator
+    self.valid_generator = valid_datagenerator.flow_from_directory(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dharanivasan\anaconda3\Lib\site-packages\keras\src\preprocessing\image.py", line 1648, in flow_from_directory
+    return DirectoryIterator(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dharanivasan\anaconda3\Lib\site-packages\keras\src\preprocessing\image.py", line 563, in __init__
+    for subdir in sorted(os.listdir(directory)):
+                         ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'artifacts\\data_ingestion\\kidney-ct-scan-image'
+[2024-03-15 22:41:56,842: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-03-15 22:41:57,562: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-15 22:41:57,564: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 22:41:57,566: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 22:41:57,567: INFO: common: created directory at: artifacts]
+[2024-03-15 22:41:57,568: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-15 22:41:57,568: INFO: data_injection: Downloading data from https://drive.google.com/file/d/1Bic8dk_wtjUsP9tpXxo5CGrPNkuhIiL8/view?usp=sharing into file artifacts/data_ingestion/kidney_dataset.zip]
+[2024-03-15 22:42:16,492: INFO: data_injection: Downloaded data from https://drive.google.com/file/d/1Bic8dk_wtjUsP9tpXxo5CGrPNkuhIiL8/view?usp=sharing into file artifacts/data_ingestion/kidney_dataset.zip]
+[2024-03-15 22:42:17,446: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-03-15 22:42:17,446: INFO: main: *******************]
+[2024-03-15 22:42:17,446: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-03-15 22:42:17,451: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 22:42:17,451: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 22:42:17,451: INFO: common: created directory at: artifacts]
+[2024-03-15 22:42:17,454: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-03-15 22:42:18,722: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-03-15 22:42:18,722: INFO: main: *******************]
+[2024-03-15 22:42:18,722: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-03-15 22:42:18,728: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-15 22:42:18,728: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-15 22:42:18,731: INFO: common: created directory at: artifacts]
+[2024-03-15 22:42:18,733: INFO: common: created directory at: artifacts\training]
+[2024-03-15 22:42:20,630: WARNING: optimizer: Skipping variable loading for optimizer 'SGD', because it has 3 variables whereas the saved optimizer has 1 variables. ]
+[2024-03-15 22:45:05,018: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
